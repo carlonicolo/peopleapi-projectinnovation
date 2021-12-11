@@ -1,4 +1,7 @@
 package com.carlonicolo.personapi.repositories;
 
-public interface PersonRepository {
+import com.carlonicolo.personapi.entities.Person;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PersonRepository extends JpaRepository<Person, Long> {
 }
