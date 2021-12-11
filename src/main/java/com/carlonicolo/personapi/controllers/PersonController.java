@@ -1,4 +1,4 @@
-package com.carlonicolo.personapi.controller;
+package com.carlonicolo.personapi.controllers;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
